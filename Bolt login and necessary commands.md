@@ -3,6 +3,7 @@ Commands for communication
 --------------------------------
 ssh nayan@bolt.in.cobaltspeech.com      
 jupyter notebook --no-browser --port=1234
+
 ssh -L 8080:localhost:1234 nayan@100.88.210.1
 http://localhost:8080/
 

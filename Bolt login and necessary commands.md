@@ -55,6 +55,14 @@ For running any script:
 nvidia-smi          #checking GPU
 
 
+Openning a text file in command window:
+----------------------------------------------
+head -n -0 VS-625-TP-103177.txt
+
+here -0 argument shows all the lines. if you put 100 instead of -0 it will print first 100 lines
+
+
+
 opening jupyter notebook:
 ---------------------------------
 LD_LIBRARY_PATH="/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH" PATH="/usr/local/cuda-11.2/bin:$PATH" CUDA_VISIBLE_DEVICES="0" jupyter notebook --no-browser --port=1234
@@ -65,3 +73,17 @@ LD_LIBRARY_PATH="/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH" PATH="/usr/local/c
 
 
 LD_LIBRARY_PATH="/usr/local/cuda-11.2/lib64:$LD_LIBRARY_PATH" PATH="/usr/local/cuda-11.2/bin:$PATH" CUDA_VISIBLE_DEVICES="1" python3 load_and_predict_words.py
+
+
+
+MetalTiger:
+----------------------
+
+./MetalTiger transform -config metaltiger-master/sample_models/lm_clean/en_US/spokenform.toml -input all_speech.txt \
+        > output-all_speech.txt
+
+
+Keyshortcut:
+---------------
+Up key: loads previous command
+htop: shows bolts task manager

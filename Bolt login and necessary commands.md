@@ -86,4 +86,5 @@ MetalTiger:
 Keyshortcut:
 ---------------
 Up key: loads previous command
+
 htop: shows bolts task manager

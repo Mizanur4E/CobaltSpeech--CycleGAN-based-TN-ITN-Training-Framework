@@ -62,7 +62,7 @@ head -n -0 VS-625-TP-103177.txt
 here -0 argument shows all the lines. if you put 100 instead of -0 it will print first 100 lines
 
 
-#to check gpu allocation
+To check gpu allocation
 --------------------------
 /home/shahruk/bin/gpublame  
 

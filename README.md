@@ -1,5 +1,11 @@
 # Text-normalizer-formatter-CobaltSpeech
 
+Formatter
+---------------
+This directory contains script for processing voiceScript data. 'FormatterDataPreprocessorForMT.py' to generate speaker speech pair.
+It also contains python script to yield dataset for statistical formatter trainning. We used metal tiger to generate formatted form of voiceScript data. Then we used sclite to produce comparsion files. From this comparison files we produced formatted form of the text and speech form. 
+
+
 Result Evaluation:
 -----------------------
 

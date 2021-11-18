@@ -2,7 +2,11 @@
 # coding: utf-8
 
 # In[2]:
-
+'''
+This code preporcess voiceScript data and generate speaker and speecch pair. 
+First it remove header and footer's unnecessary texts and then detects speaker and corresponding speech. 
+It also able to generate word level speaker and speech pair
+'''
 
 #import necessary packages
 import re

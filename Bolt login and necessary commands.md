@@ -1,6 +1,6 @@
 
-Commands for communication
---------------------------------
+Commands for communication with bolt
+-------------------------------------
 ssh nayan@bolt.in.cobaltspeech.com      
 jupyter notebook --no-browser --port=1234
 
@@ -62,6 +62,9 @@ head -n -0 VS-625-TP-103177.txt
 here -0 argument shows all the lines. if you put 100 instead of -0 it will print first 100 lines
 
 
+#to check gpu allocation
+--------------------------
+/home/shahruk/bin/gpublame  
 
 opening jupyter notebook:
 ---------------------------------

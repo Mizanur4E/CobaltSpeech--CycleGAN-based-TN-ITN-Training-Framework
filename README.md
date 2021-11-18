@@ -1,4 +1,4 @@
-# Text-normalizer-formatter-CobaltSpeech
+# Statistical text-normalizer and formatter-CobaltSpeech
 
 Formatter
 ---------------

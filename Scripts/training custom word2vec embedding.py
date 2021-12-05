@@ -177,7 +177,7 @@ if __name__ == "__main__":
 	X= data_processing()
 	corpus = []
 	for i in range(len(X)):
-    corpus.append(X[i].split())
+    		corpus.append(X[i].split())
 
 
 	import gensim

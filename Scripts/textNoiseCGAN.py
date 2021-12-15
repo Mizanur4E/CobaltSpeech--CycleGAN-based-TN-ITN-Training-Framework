@@ -1,4 +1,11 @@
-
+from __future__ import print_function, division
+from tensorflow.keras import layers
+from tensorflow.keras import Model, Sequential
+from tensorflow.keras.optimizers import Adam, SGD
+from tensorflow.keras.utils import plot_model
+import matplotlib.pyplot as plt
+import numpy as np
+from gensim.models import Word2Vec
 import numpy as np
 import pandas as pd
 import gc

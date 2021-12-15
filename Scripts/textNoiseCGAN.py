@@ -354,7 +354,7 @@ class textNoiseCGAN():
 
 if __name__ == '__main__':
     
-    cgan = textCGAN()
+    cgan = textNoiseCGAN()
     X_train,y_train= Data_preparator(datasize= 200000, timestep = 7)
     cgan.train(X_train,y_train,epochs=2000000, batch_size=128, sample_interval=2000)
             

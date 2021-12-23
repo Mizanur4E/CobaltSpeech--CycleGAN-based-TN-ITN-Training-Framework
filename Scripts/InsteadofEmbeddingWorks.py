@@ -1,4 +1,24 @@
-
+from __future__ import print_function, division
+from tensorflow.keras import layers
+from tensorflow.keras import Model, Sequential
+from tensorflow.keras.optimizers import Adam, SGD
+from tensorflow.keras.utils import plot_model
+import matplotlib.pyplot as plt
+import numpy as np
+from gensim.models import Word2Vec
+import numpy as np
+import pandas as pd
+import gc
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.utils import to_categorical
+import matplotlib.pyplot as plt
+from tensorflow import keras
+from numpy import array
+from numpy import argmax
+from keras import backend as K
 """##Data importing and preparations"""
 
 def Data_preparator1(datasize, timestep):

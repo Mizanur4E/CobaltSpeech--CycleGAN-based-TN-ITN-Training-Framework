@@ -1,4 +1,7 @@
-
+'''
+trained generator with both seq2seq loss (classical-crossentropy)  and adversarial loss.
+Discriminator has normal binary crossentropy loss
+'''
 from __future__ import print_function, division
 from tensorflow.keras import layers
 from tensorflow.keras import Model, Sequential

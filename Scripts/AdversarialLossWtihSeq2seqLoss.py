@@ -448,8 +448,8 @@ class NoEmbeddingGAN():
             print(x_text[i],'--',y_true_text[i],'--',y_pred_text[i])
         
         
-        
-X_enc,y_enc,val_set,tokenizer,vocab_size= Data_preparator1(200000, 7)
-lion1 = NoEmbeddingGAN(vocab_size,tokenizer)
-lion1.pretrain(X_enc,y_enc,4)
-lion1.train(X_enc,y_enc,val_set,1000000,400)
+if __name__ == "__main__":        
+    X_enc,y_enc,val_set,tokenizer,vocab_size= Data_preparator1(200000, 7)
+    lion1 = NoEmbeddingGAN(vocab_size,tokenizer)
+    lion1.pretrain(X_enc,y_enc,4)
+    lion1.train(X_enc,y_enc,val_set,1000000,400)

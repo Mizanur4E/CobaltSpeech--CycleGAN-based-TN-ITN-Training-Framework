@@ -1,5 +1,6 @@
 class normal():
     
+    '''creates simple enc-dec model but trains with custom loss function under tf.GradientTape()'''
     
     def __init__(self):
 

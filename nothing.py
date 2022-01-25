@@ -32,6 +32,7 @@ class normal():
         for i in range(epochs):
 
             for j in range(batch_num):
+                
 
                 ix = np.random.randint(0,X_train.shape[0],batch_size)
                 x_true = X_train[ix]

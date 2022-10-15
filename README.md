@@ -1,5 +1,9 @@
 # Statistical text-normalizer and formatter-CobaltSpeech
 
+ALL_in_one_directory
+-----------------------
+The directory contains final scripts for data preprocessing, model building, training and evaluation. 
+
 Formatter
 ---------------
 This directory contains script for processing voiceScript data. 'FormatterDataPreprocessorForMT.py' to generate speaker speech pair.
